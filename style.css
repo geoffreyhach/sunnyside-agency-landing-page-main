@@ -298,6 +298,7 @@ h2
     color :hsl(212, 27%, 19%);
     text-decoration: none;
     cursor: pointer;
+
 }
 
 .underline::after {
@@ -493,6 +494,8 @@ footer h1 {
 
     .content {
     min-height: 100%;
+    padding: 5rem 3rem;
+    text-align: left;
     }
 
 
@@ -512,6 +515,34 @@ footer h1 {
 
     .links-section {
         width : 30%;
+    }
+
+ /* ==========
+    ELEMENTS
+=========== */
+
+    .content h2 {
+        font-size: 4rem;
+        text-align: left;
+    }
+
+    .photography p,
+    .design p {
+        text-align: center;
+    }
+
+    .photography h2,
+    .design h2 {
+        text-align: center;
+    }
+
+    .testimonials-title {
+        font-size: 1.3rem !important;
+        text-align: center !important;
+    }
+
+    .feedback-card p {
+        text-align: center;
     }
 
 }
