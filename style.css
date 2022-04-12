@@ -479,7 +479,7 @@ footer h1 {
    .header-nav-links:hover {
     color : black;
     padding : 1rem;
-    }[](../../../../images/mobile/image-transform.jpg)
+    }
 
    .header-nav-contact {
        color: black;
@@ -494,7 +494,7 @@ footer h1 {
 
     .content {
     min-height: 100%;
-    padding: 5rem 3rem;
+    padding: 3rem 2rem;
     text-align: left;
     }
 
@@ -522,7 +522,7 @@ footer h1 {
 =========== */
 
     .content h2 {
-        font-size: 4rem;
+        font-size: 2.3rem;
         text-align: left;
     }
 
@@ -545,4 +545,21 @@ footer h1 {
         text-align: center;
     }
 
+}
+
+@media screen and (min-width: 1150px) {
+
+    .content {
+        min-height: 100%;
+        padding: 5rem 5rem;
+        text-align: left;
+        }
+
+    .content h2 {
+        font-size: 4rem;
+        text-align: left;
+    }
+
+
+    
 }
