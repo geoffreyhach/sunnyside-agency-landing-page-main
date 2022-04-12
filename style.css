@@ -441,6 +441,9 @@ footer h1 {
    #nav-btn {
        display: none;
    }
+   #toggle-nav {
+       display: none;
+   }
 
    #header-nav {
     display: flex;
@@ -475,7 +478,7 @@ footer h1 {
    .header-nav-links:hover {
     color : black;
     padding : 1rem;
-    }
+    }[](../../../../images/mobile/image-transform.jpg)
 
    .header-nav-contact {
        color: black;
