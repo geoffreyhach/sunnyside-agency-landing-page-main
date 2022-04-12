@@ -44,9 +44,6 @@ main {
 
  }
 
-
-
-
 .content {
     display: flex;
     flex-direction: column;
@@ -56,7 +53,7 @@ main {
     text-align: center;
     color : hsl(232, 10%, 55%);
     min-height: 100vw;
-   
+  
 }
 
 .illustration {
@@ -67,12 +64,7 @@ main {
 .illustration img{
     width: 100vw;
     object-fit: cover;
-    /* border: 1px solid green; */
 }
-
-
-
-
 
 .design {
     display: flex;
@@ -194,7 +186,7 @@ footer ul {
 
 }
 
-.triangle {
+.triangle-header-nav {
     position: absolute;
     width: 0;
     height: 0;
@@ -377,27 +369,20 @@ footer h1 {
 }
 
 .social-media-links {
-    transition: 200ms transform ease-out;
-  
-    
+    transition: 200ms transform ease-out;  
 }
 
 
 .social-media-links:hover {
     transform: scale(1.4);
-    
-    
+       
 }
 
 .attribution {
     font-size: .8rem;
 }
-.attribution a {
-   letter-spacing: none;
 
-}
-/* font-family: 'Barlow', sans-serif;
-font-family: 'Fraunces', serif; */
+
 
 
 
@@ -426,16 +411,18 @@ font-family: 'Fraunces', serif; */
 
    .brand {
     grid-row: 2;
-}
+    }
+
     .testimonials {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: baseline;
-}
+    }
     .testimonials-title {
         width:100%;
-}
+    }
+
     .feedback-card {
         flex: 1;
     }
@@ -443,7 +430,7 @@ font-family: 'Fraunces', serif; */
     .mosaic {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column: span 2;
-}
+    }
 
 /* ==========
     ELEMENTS
@@ -456,21 +443,18 @@ font-family: 'Fraunces', serif; */
    }
 
    #header-nav {
-
     display: flex;
     position:  relative;
     background-color: transparent;
     padding: 0px;
     width: auto;
-    
-
     padding: 1rem 0rem;
     top: auto;
     right: auto;
     z-index: 999; 
    }
 
-   .triangle {
+   .triangle-header-nav {
     display: none;
    }
 
@@ -491,7 +475,7 @@ font-family: 'Fraunces', serif; */
    .header-nav-links:hover {
     color : black;
     padding : 1rem;
-}
+    }
 
    .header-nav-contact {
        color: black;
@@ -501,37 +485,29 @@ font-family: 'Fraunces', serif; */
    }
 
    .header-nav-contact:hover {
-
     background-color: hsl(0, 0%, 100%, 50%);
-
     }
 
     .content {
     min-height: 100%;
-   
     }
 
 
     .illustration img  {
     width: 100%;
-
     }
 
 
 
     .design {
         background-image: url(./images/desktop/image-graphic-design.jpg);
-    
     }
     .photography {
         background-image: url(./images/desktop/image-photography.jpg);
     }
 
-
-
     .links-section {
-
         width : 30%;
     }
 
-    }
+}
